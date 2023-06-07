@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: #17aacf;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+
+.link{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 50px;
+  padding: 5px;
+  
+ 
+}
+.inpt{
+    margin: 5px;
+}
+
+.btn{
+    margin-left: 160px;
+    margin-top: 5px;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.todocontainer{
+    display: flex;
+    background:#B9E5FA ;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+
+}
+.todo1{
+    margin-left: 200px;
+
+}
+
+.todo1>button{
+    margin: 10px;
+}
+
