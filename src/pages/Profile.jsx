@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from 'react'
 import { context, server } from '../main'
 import Loader from '../components/Loader';
-import axios from 'axios';
+
 
 const Profile = () => {
-  const {user,loading,setUser}=useContext(context);
+  const {user,loading,}=useContext(context);
 
 
   return (
